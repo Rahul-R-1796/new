@@ -1,0 +1,88 @@
+/* styles.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Contacts list styles */
+.contacts-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contacts-list li {
+  padding: 10px;
+  background-color: #fff;
+  margin: 10px 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contacts-list li button {
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contacts-list li button:hover {
+  background-color: #d32f2f;
+}
+
+/* Add contact form styles */
+.add-contact-form {
+  margin-top: 20px;
+}
+
+.add-contact-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.add-contact-form button {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-contact-form button:hover {
+  background-color: #45a049;
+}
+
+/* Error message styles */
+.error-message {
+  color: #f44336;
+  margin-bottom: 10px;
+}
+
+/* Success message styles */
+.success-message {
+  color: #4caf50;
+  margin-bottom: 10px;
+}
